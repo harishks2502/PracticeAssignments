@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Solid white background -->
+    <item>
+        <shape>
+            <solid android:color="@android:color/white" />
+            <corners android:radius="8dp" /> <!-- Rounded corners for background -->
+        </shape>
+    </item>
+
+    <!-- Border with rounded corners -->
+    <item>
+        <shape>
+            <stroke
+                android:width="2dp"
+                android:color="#000000" /> <!-- Border color -->
+            <solid android:color="@android:color/transparent" /> <!-- Transparent fill to only show border -->
+            <corners android:radius="16dp" /> <!-- Rounded corners for the border -->
+        </shape>
+    </item>
+</layer-list>
+
